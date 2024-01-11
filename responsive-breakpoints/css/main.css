@@ -1,0 +1,16 @@
+body {
+  background: cornflowerblue;
+}
+/* ----------- For screens 768px and larger ----------- */
+@media (min-device-width: 768px)(max-device-width:1199px) {
+body {
+  background: #9932cc;
+}
+}
+
+/* ----------- For screens 1200px wide and larger----------- */
+@media (min-device-width:1200px) {
+body {
+  background: #008b8b;
+}
+}
